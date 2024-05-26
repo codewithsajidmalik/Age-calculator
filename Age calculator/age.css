@@ -1,0 +1,49 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url('age\ image.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.box{
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+    box-shadow: 5px 5px 10px;
+    opacity: 1;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+h1{
+    color: black;
+}
+input[type="button"]{
+    background-color: burlywood;
+
+}
+label{
+   color: lightcoral;
+}
+p{
+    font-size: 30px;
+}
+input[type="button"]:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+
